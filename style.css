@@ -1,0 +1,72 @@
+body {
+	width: 100%;
+}
+header {
+	width: 100%;
+}
+main {
+	border: 1px solid blue;
+	width: 100%;
+}
+
+.rows {
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 15px;
+	padding-top: 0.2%;
+
+}
+
+.titulo {
+	background: red;
+	font-size: 6em;
+	font-weight: bold;
+	color: white;
+}
+.cols7 {
+	padding-top: 0.4%;
+	padding-bottom: 0.4%;
+	width: 14.1%;
+	height: 130px;
+	/*alinha texto no centro*/
+	line-height: 130px;
+	border-radius: 10px;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 5.7em;
+	font-weight: bold;
+
+}
+
+.row-week {
+	background: black;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.8em;
+	height: 30px;
+	line-height: 30px;
+
+}
+
+.row-week:first-child {
+	background: red;
+	border: red;
+}
+.cols2 {
+	padding: 1%;
+	width: 48%;
+}
+
+.col-right {
+	text-align: right;
+}
+.cols3 {
+	padding: 10px;
+	border: 1px solid pink;
+	width: 30%;
+}
+footer {
+	border: 1px solid green;
+}
