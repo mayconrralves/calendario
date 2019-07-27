@@ -70,3 +70,11 @@ main {
 footer {
 	border: 1px solid green;
 }
+
+.domingo-day {
+	color: red;
+}
+
+#month-title {
+	text-transform: uppercase;
+}
